@@ -1,6 +1,6 @@
 /*
-    Filename Object Proxy
-    author: Ushama Mustikohisam
+    Filename: Object Proxy
+    Author: Ushama Mustikohisam
 */
 
 function randomString(l = 8){

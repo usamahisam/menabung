@@ -12,7 +12,8 @@ export default class Card extends Component {
                 padding: '5px',
                 backgroundColor: Color.White,
                 borderRadius: '5px',
-                boxShadow: '0px 0px 3px 0px #ccc',
+				boxShadow: '0px 0px 3px 0px #ccc',
+				marginBottom: '10px'
 			}));
 		});
 	}

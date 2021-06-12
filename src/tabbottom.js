@@ -13,33 +13,33 @@ export default class MyHomeTab extends Component {
                 default: true,
                 name: 'Beranda',
                 icon: 'home',
-                colorActive: Color.Green[400],
+                colorActive: Color.Green[600],
                 isActive: () => {
-                    StatusBarColor(Color.Green[400]);
+                    StatusBarColor(Color.Green[600]);
                 }
             });
             self.tab(Tabungan, {
                 name: 'Tabungan',
                 icon: 'ios7-analytics',
-                colorActive: Color.Purple[400],
+                colorActive: Color.Purple[600],
                 isActive: () => {
-                    StatusBarColor(Color.Purple[400]);
+                    StatusBarColor(Color.Purple[600]);
                 }
             });
             self.tab(Aktivitas, {
                 name: 'Aktivitas',
                 icon: 'ios7-paper',
-                colorActive: Color.Red[400],
+                colorActive: Color.Red[600],
                 isActive: () => {
-                    StatusBarColor(Color.Red[400]);
+                    StatusBarColor(Color.Red[600]);
                 }
             });
             self.tab(Profil, {
                 name: 'Profil',
                 icon: 'person',
-                colorActive: Color.Green[400],
+                colorActive: Color.Green[600],
                 isActive: () => {
-                    StatusBarColor(Color.Green[400]);
+                    StatusBarColor(Color.Green[600]);
                 }
             });
         });
